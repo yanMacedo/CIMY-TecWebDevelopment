@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;  
+    border-bottom: 0.4px solid #FFF2E7;
+}
+
+.cabecalho-imagem {
+    height: 100px;
+    margin-left: 30px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px;
+    margin-right: 25px;
+    text-decoration: none;
+}
+
+.main {
+    margin-left: 36%;
+    margin-top: 2%;   
+    margin-bottom: 6%; 
+    font-size: 100%; 
+}
+
+#titulo{
+    font-family: sans-serif;
+    color: #F0F8FF;
+    margin-left: 7%;
+}
+
+#subtitulo{
+    font-family: sans-serif;
+    color: #F0F8FF;
+    margin-left: 10%;
+    margin-bottom: 15px;
+}
+
+fieldset{
+    border: 0
+}
+
+body{
+    font-family: sans-serif;
+    color: #F0F8FF;    
+    justify-content: center;
+    background: linear-gradient(68.15deg, rgb(19, 59, 15) 16.62%, rgb(53, 175, 63) 85.61%);
+}
+
+input, textarea, button{
+    border-radius: 5px;
+}
+
+.campo{
+    margin-bottom: 1em;
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    color: #F0F8FF;
+    display: block;
+}
+
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo input[type="tel"], .campo textarea{
+    padding: 0.2em;
+    border: 1px solid #000000;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    display: block;
+}
+
+
+.campo input:focus, .campo textarea:focus{
+    background: #e0e0f8;
+}
+
+.botao{
+    font-size: 1.2em;
+    background: rgb(28, 207, 16);
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); 
+    cursor: pointer;
+}
+
+.botao:hover{
+    background: darkgreen;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+.rodape {
+    padding: 15px;
+    border-top: 0.4px solid #FFF2E7;
+    color: rgb(214, 214, 214);
+    text-align: center;
+    font-family: 'Sarala', sans-serif;
+    font-size: 12px;
+  }
+  .rodape-imagem {
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+  }
